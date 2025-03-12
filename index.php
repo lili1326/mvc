@@ -1,6 +1,11 @@
 <?php 
 
+require_once 'vendor/autoload.php';
 define("BASE_URL", '/mvc');
+
+//intanciation de l'environnement twig et creer le dossier templates
+$loader = new Twig\Loader\FilesystemLoader('templates');
+$twig = new Twig\Environment($loader);
 
 // INCLUSION DES CLASSES
 

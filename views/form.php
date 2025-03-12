@@ -1,6 +1,6 @@
 <?php
-
-?>
+/*
+ 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,13 +14,14 @@
 <body>
     <h1>Login</h1>
     <form action="<?php echo BASE_URL.'/profile'; ?>" method="post">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="password">Mot de passe</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="Login">
-    </form>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="password">Mot de passe</label>
+<input type="password" id="password" name="password" required><br><br>
+<input type="submit" value="Login">
+</form>
 
 </body>
 
 </html>
+*/

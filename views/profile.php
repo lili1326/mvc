@@ -1,4 +1,5 @@
 <?php
+/*
 require_once "models/User.php";
 $email = $_POST['email'];
 $user = new User($email); //crée un nouvel utilisateur
@@ -26,3 +27,4 @@ $user = new User($email); //crée un nouvel utilisateur
 </body>
 
 </html>
+*/
